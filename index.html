@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Fense</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1117d180a4.js" crossorigin="anonymous"></script>
+
+    <!-----favicon-------->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+</head>
+<body>
+
+<!------------------navbar--------------------->
+<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b">
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <a href="index.html" class="flex items-center">
+        <img src="/assets/hero-logo.png" class="h-6 mr-3 sm:h-9"/>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="index.html" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="workshop.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Workshop</a>
+        </li>
+        <li>
+          <a href="crew.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Crew</a>
+        </li>
+        <li>
+          <a href="contact.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--------------------hero section--------------------------->
+<img class="h-auto max-w-full" src="/assets/main-banner.png">
+
+<!--------------------------about section--------------------------->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <section class="bg-white dark:bg-gray-900">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <div class="mt-4 md:mt-0">
+        <h1 class="text-5xl font-extrabold dark:text-white">About<small class="ml-2 font-semibold text-gray-500 dark:text-gray-400">E-FENSE</small></h1>
+        <p class="mb-3 mt-8 text-lg font-light text-gray-500 md:text-xl dark:text-gray-400">E-FENSE (Encapsulating Farmers Ecosystem Necessity with Sustainable Energy) is an IEEE HAC funded project which aims at Solar powered electric fencing in Sreekrishnapuram village of Palakkad district.</p>
+        <p class="font-light text-gray-500 dark:text-gray-400">It is an Electric Fencing Project that can bring productivity to 45 acres of land, to obtain an upsurge of at least 50% in the overall productivity and enhanced financial stability for the farmers of Sreekrishnapuram LSGD. The project involves implementation of a Solar Panel of 670W Peak and a 100Ah battery on the aforementioned site so as to solar fence it and ward away any wild animals that may attack or endanger the produce of the farmers. This way it aims to increase their productivity and is also the first of its kind to be undertaken by a group under IEEE Kerala Section.</p>
+      </div>
+      <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+    </div>
+</section>
+  </div>
+</section>
+
+<!--------------------------countdown-------------------------------->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <h1 class="text-center text-5xl font-extrabold dark:text-white">Countdown<br>
+      <small class="ml-2 font-semibold text-gray-500 dark:text-gray-400">The event starts in the next  </small>
+    </h1>
+    <div id="countdown">
+      <div id="days"></div>
+      <div id="hours"></div>
+      <div id="minutes"></div>
+      <div id="seconds"></div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+#countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+#countdown div span {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+</style>
+
+<script>
+const countdown = document.querySelector('#countdown');
+const daysEl = document.querySelector('#days');
+const hoursEl = document.querySelector('#hours');
+const minutesEl = document.querySelector('#minutes');
+const secondsEl = document.querySelector('#seconds');
+
+const targetDate = new Date("March 4, 2023 12:00:00").getTime();
+
+setInterval(() => {
+  const currentDate = new Date().getTime();
+  const distance = targetDate - currentDate;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  daysEl.innerHTML = `<div>${days}<span>Days</span></div>`;
+  hoursEl.innerHTML = `<div>${hours}<span>Hours</span></div>`;
+  minutesEl.innerHTML = `<div>${minutes}<span>Minutes</span></div>`;
+  secondsEl.innerHTML = `<div>${seconds}<span>Seconds</span></div>`;
+
+}, 1000);
+</script>
+
+<!-------------------------------workshop----------------------------------->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+        <h1 class="text-5xl font-extrabold dark:text-white">Workshop</h1>
+        <p class="mb-3 mt-8 text-lg font-light text-gray-500 md:text-xl dark:text-gray-400">Learn more about it </p>
+      </div> 
+      <div class="grid gap-8 lg:grid-cols-2">
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                      Tutorial
+                  </span>
+                  <span class="text-sm">14 days ago</span>
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                      <span class="font-medium dark:text-white">
+                          Jese Leos
+                      </span>
+                  </div>
+                  <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Article
+                  </span>
+                  <span class="text-sm">14 days ago</span>
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Our first project with React</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Green avatar" />
+                      <span class="font-medium dark:text-white">
+                          Bonnie Green
+                      </span>
+                  </div>
+                  <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article>                  
+      </div>  
+  </div>
+</section>
+
+<!------------------------footer--------------------------->
+<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+    <a href="index.html" class="flex items-center">
+        <img src="/assets/hero-logo.png" class="h-6 mx-auto sm:h-9 mb-2"/>
+    </a>
+    <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+        <li>
+            <a href="index.html" class="mr-4 hover:underline md:mr-6 ">Home</a>
+        </li>
+        <li>
+            <a href="workshop.html" class="mr-4 hover:underline md:mr-6">Workshop</a>
+        </li>
+        <li>
+            <a href="crew.html" class="mr-4 hover:underline md:mr-6 ">Crew</a>
+        </li>
+        <li>
+            <a href="contact.html" class="mr-4 hover:underline md:mr-6">Contact</a>
+        </li>
+    </ul>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy;2023 Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by IEEE SB NSSCE</span>
+</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+</html>
